@@ -1,5 +1,5 @@
 {
-  "sneakers": {
+  "sneakers": [
     {
       "title": "Мужские Кроссовки Nike Blazer Mid Suede",
       "price": "12999",
@@ -55,5 +55,5 @@
       "price": "10299",
       "photo": "./images/sneakers/sneaker-11.jpg"
     }
-  }
+  ]
 }
