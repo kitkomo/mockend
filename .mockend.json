@@ -1,66 +1,59 @@
 {
-  "Post": {
-    "_": {
-      "items": 10
+  "sneakers": {
+    {
+      "title": "Мужские Кроссовки Nike Blazer Mid Suede",
+      "price": "12999",
+      "photo": "./images/sneakers/sneaker-1.jpg"
     },
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    {
+      "title": "Мужские Кроссовки Nike Air Max 270",
+      "price": "11800",
+      "photo": "./images/sneakers/sneaker-2.jpg"
     },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
+    {
+      "title": "Мужские Кроссовки Nike Blazer Mid Suede",
+      "price": "12999",
+      "photo": "./images/sneakers/sneaker-3.jpg"
     },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
+    {
+      "title": "Кроссовки Puma X Aka Boku Future Rider",
+      "price": "8990",
+      "photo": "./images/sneakers/sneaker-4.jpg"
     },
-    "category": {
-      "string": ["one", "two", "three"]
+    {
+      "title": "Мужские Кроссовки Under Armour Curry 8",
+      "price": "15399",
+      "photo": "./images/sneakers/sneaker-5.jpg"
     },
-    "isDraft": {
-      "boolean": {}
+    {
+      "title": "Мужские Кроссовки Nike Kyrie 7",
+      "price": "10700",
+      "photo": "./images/sneakers/sneaker-6.jpg"
     },
-    "views": {
-      "int": {
-        "min": 0,
-        "max": 1000
-      }
+    {
+      "title": "Мужские Кроссовки Jordan Air Jordan 11",
+      "price": "13990",
+      "photo": "./images/sneakers/sneaker-7.jpg"
     },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
+    {
+      "title": "Мужские Кроссовки Nike LeBron XVIII",
+      "price": "15990",
+      "photo": "./images/sneakers/sneaker-8.jpg"
     },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "_": {
-      "items": 25
+    {
+      "title": "Мужские Кроссовки Nike Lebron XVIII Low",
+      "price": "14990",
+      "photo": "./images/sneakers/sneaker-9.jpg"
     },
-    "email": {
-      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    {
+      "title": "Кроссовки Puma X Aka Boku Future Rider",
+      "price": "8999",
+      "photo": "./images/sneakers/sneaker-10.jpg"
     },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    },
-    "post": {
-      "belongsTo": "Post"
+    {
+      "title": "Мужские Кроссовки Nike Kyrie Flytrap IV",
+      "price": "10299",
+      "photo": "./images/sneakers/sneaker-11.jpg"
     }
   }
 }
